@@ -44,3 +44,6 @@ jest-test-results.json
 
 # Playwright artifacts
 playwright/.cache/
+
+#allure
+allure-results/

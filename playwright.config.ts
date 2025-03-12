@@ -12,5 +12,5 @@ export default defineConfig({
     trace: 'on',
     video: 'on',
   },
-  reporter: [['html', { outputFolder: 'test-results' }]],
+  reporter: [['html', { outputFolder: 'test-results' }], ['allure-playwright']],
 });
