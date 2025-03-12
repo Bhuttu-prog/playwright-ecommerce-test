@@ -1,0 +1,46 @@
+# Node.js dependencies
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Playwright test results
+test-results/
+trace.zip
+report/
+playwright-report/
+
+# VS Code settings
+.vscode/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs & Debugging
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Temporary files
+tmp/
+dist/
+out/
+coverage/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Jest / Testing
+coverage/
+jest-test-results.json
+
+# TypeScript Build Output
+*.tsbuildinfo
+
+# Playwright artifacts
+playwright/.cache/
